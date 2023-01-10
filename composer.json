@@ -1,0 +1,36 @@
+{
+    "name": "dk/doctrine-manager-bundle",
+    "description": "Doctrine entity management usage adapter",
+    "type": "symfony-library",
+    "license": "RIP",
+    "autoload": {
+        "psr-4": {
+            "Dk\\DoctrineManagerBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Volodymyr Klymniuk",
+            "email": "Volodymyr.Klymniuk@gmail.com"
+        }
+    ],
+    "minimum-stability": "RC",
+    "require": {
+        "doctrine/doctrine-bundle": "^2.8",
+        "sensio/framework-extra-bundle": "^6.2",
+        "doctrine/orm": "^2.14",
+        "symfony/dependency-injection": "^6.2",
+        "symfony/config": "^6.2",
+        "symfony/property-access": "^6.2",
+        "symfony/http-kernel": "^6.2",
+        "ramsey/uuid-doctrine": "^2.0"
+    },
+    "config": {
+        "secure-http": false
+    },
+    "suggest": {
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
