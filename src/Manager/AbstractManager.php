@@ -1,6 +1,6 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\Manager;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\Manager;
 
 use VolodymyrKlymniuk\DoctrineManagerBundle\DependencyInjection\EntityManagerAwareTrait;
 use VolodymyrKlymniuk\DoctrineManagerBundle\DependencyInjection\EventDispatcherAwareTrait;
@@ -9,6 +9,7 @@ use VolodymyrKlymniuk\DoctrineSpecification\EntitySpecificationRepository;
 use VolodymyrKlymniuk\DoctrineSpecification\LazySpecificationCollection;
 use VolodymyrKlymniuk\DoctrineSpecification\ResultTransformer\ResultTransformerInterface;
 use VolodymyrKlymniuk\DoctrineSpecification\SpecificationInterface;
+
 use Doctrine\ORM\EntityManagerInterface;
 
 abstract class AbstractManager implements ManagerInterface

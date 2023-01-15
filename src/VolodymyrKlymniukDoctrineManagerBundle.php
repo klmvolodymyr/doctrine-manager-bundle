@@ -7,7 +7,6 @@ class VolodymyrKlymniukDoctrineManagerBundle extends Bundle
 {
     /**
      * @param ContainerBuilder $container
-     *
      */
     public function build(ContainerBuilder $container)
     {

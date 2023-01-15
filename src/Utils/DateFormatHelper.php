@@ -1,7 +1,6 @@
 <?php
 
 namespace VolodymyrKlymniuk\DoctrineManagerBundle\Utils;
-//namespace Dt\DoctrineManagerBundle\Helper;
 
 class DateFormatHelper
 {

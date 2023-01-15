@@ -2,7 +2,6 @@
 
 namespace VolodymyrKlymniuk\DoctrineManagerBundle\Specification;
 
-// TODO: First update and republish dependencies
 use VolodymyrKlymniuk\DoctrineSpecification\SpecificationInterface;
 
 interface BaseSpecInterface extends SpecificationInterface

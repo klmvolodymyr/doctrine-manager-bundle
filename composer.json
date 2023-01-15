@@ -23,7 +23,8 @@
         "symfony/config": "^6.2",
         "symfony/property-access": "^6.2",
         "symfony/http-kernel": "^6.2",
-        "ramsey/uuid-doctrine": "^2.0"
+        "ramsey/uuid-doctrine": "^2.0",
+        "volodymyr-klymniuk/doctrine-specification": "dev-master"
     },
     "config": {
         "secure-http": false

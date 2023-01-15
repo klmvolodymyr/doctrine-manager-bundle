@@ -8,7 +8,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
 use VolodymyrKlymniuk\DoctrineSpecification\EntitySpecificationRepository;
 
-class DtDoctrineManagerExtension
+class VolodymyrKlymniukDoctrineManagerExtension
 {
     /**
      * {@inheritDoc}

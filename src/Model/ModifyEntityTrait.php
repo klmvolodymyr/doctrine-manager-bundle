@@ -4,6 +4,9 @@ namespace VolodymyrKlymniuk\DoctrineManagerBundle\Model;
 
 use Doctrine\ORM\Mapping as ORM;
 
+/**
+ * Extend entity to create data and modify data field.
+ */
 trait ModifyEntityTrait
 {
     /**
