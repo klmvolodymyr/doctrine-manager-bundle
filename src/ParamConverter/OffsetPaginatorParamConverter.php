@@ -1,9 +1,9 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\ParamConverter;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\ParamConverter;
 
-use Dt\DoctrineManagerBundle\Paginate\Adapter\AdapterFactory;
-use Dt\DoctrineManagerBundle\Paginate\OffsetPaginator;
+use VolodymyrKlymniuk\DoctrineManagerBundle\Paginate\Adapter\AdapterFactory;
+use VolodymyrKlymniuk\DoctrineManagerBundle\Paginate\OffsetPaginator;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\ParamConverterInterface;
 use Symfony\Component\HttpFoundation\Request;

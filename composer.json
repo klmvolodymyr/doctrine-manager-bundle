@@ -1,11 +1,11 @@
 {
-    "name": "dk/doctrine-manager-bundle",
+    "name": "volodymyr-klymniuk/doctrine-manager-bundle",
     "description": "Doctrine entity management usage adapter",
     "type": "symfony-library",
     "license": "RIP",
     "autoload": {
         "psr-4": {
-            "Dk\\DoctrineManagerBundle\\": "src/"
+            "VolodymyrKlymniuk\\DoctrineManagerBundle\\": "src/"
         }
     },
     "authors": [

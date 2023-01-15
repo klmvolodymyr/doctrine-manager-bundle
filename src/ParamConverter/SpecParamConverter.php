@@ -1,10 +1,10 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\ParamConverter;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\ParamConverter;
 
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Doctrine\ORM\NoResultException;
-use Dt\DoctrineManagerBundle\Specification\IdSpecificationInterface;
+use VolodymyrKlymniuk\DoctrineManagerBundle\Specification\IdSpecificationInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\ParamConverterInterface;
 use Symfony\Component\HttpFoundation\Request;

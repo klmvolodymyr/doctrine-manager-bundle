@@ -1,12 +1,11 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\Repository;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\Repository;
 
 use Doctrine\ORM\QueryBuilder;
-use Dt\DoctrineManagerBundle\Specification\ImmutableSpecApplier;
-use Igdr\DoctrineSpecification\EntitySpecificationRepository as BaseEntitySpecificationRepository;
-use Igdr\DoctrineSpecification\SpecificationInterface;
-
+use VolodymyrKlymniuk\DoctrineManagerBundle\Specification\ImmutableSpecApplier;
+use VolodymyrKlymniuk\DoctrineSpecification\EntitySpecificationRepository as BaseEntitySpecificationRepository;
+use VolodymyrKlymniuk\DoctrineSpecification\SpecificationInterface;
 
 class EntitySpecificationRepository extends BaseEntitySpecificationRepository
 {

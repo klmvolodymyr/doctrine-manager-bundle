@@ -3,19 +3,19 @@ parameters:
 
 services:
   base.paginate.adapter_factory:
-    class: Dt\DoctrineManagerBundle\Paginate\Adapter\AdapterFactory
+    class: VolodymyrKlymniuk\DoctrineManagerBundle\Paginate\Adapter\AdapterFactory
     arguments: ["base.paginate.adapter_"]
     calls:
       - [setContainer, ["@service_container"]]
 
   base.paginate.adapter_doctrine:
-    class: Dt\DoctrineManagerBundle\Paginate\Adapter\DoctrineAdapter
+    class: VolodymyrKlymniuk\DoctrineManagerBundle\Paginate\Adapter\DoctrineAdapter
 
   base.paginate.adapter_elastic:
-    class: Dt\DoctrineManagerBundle\Paginate\Adapter\ElasticAdapter
+    class: VolodymyrKlymniuk\DoctrineManagerBundle\Paginate\Adapter\ElasticAdapter
 
   base.paginate.adapter_doctrine_timebased:
-    class: Dt\DoctrineManagerBundle\Paginate\Adapter\DoctrineTimeBasedAdapter
+    class: VolodymyrKlymniuk\DoctrineManagerBundle\Paginate\Adapter\DoctrineTimeBasedAdapter
 
   base.paginate.adapter_elastic_timebased:
-    class: Dt\DoctrineManagerBundle\Paginate\Adapter\ElasticTimeBasedAdapter
+    class: VolodymyrKlymniuk\DoctrineManagerBundle\Paginate\Adapter\ElasticTimeBasedAdapter

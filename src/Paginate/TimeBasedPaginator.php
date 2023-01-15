@@ -1,9 +1,9 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\Paginate;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\Paginate;
 
-use Dt\DoctrineManagerBundle\Paginate\Adapter\AdapterInterface;
-use Dt\DoctrineManagerBundle\Paginate\Adapter\TimeBasedAdapterInterface;
+use VolodymyrKlymniuk\DoctrineManagerBundle\Paginate\Adapter\AdapterInterface;
+use VolodymyrKlymniuk\DoctrineManagerBundle\Paginate\Adapter\TimeBasedAdapterInterface;
 
 use Doctrine\Common\Collections\AbstractLazyCollection;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\DependencyInjection;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
-use Igdr\DoctrineSpecification\EntitySpecificationRepository;
+use VolodymyrKlymniuk\DoctrineSpecification\EntitySpecificationRepository;
 
 class DtDoctrineManagerExtension
 {

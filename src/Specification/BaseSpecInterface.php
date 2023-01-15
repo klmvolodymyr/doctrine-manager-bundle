@@ -1,9 +1,9 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\Specification;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\Specification;
 
-// TODO: First update and republish dependecy
-use Igdr\DoctrineSpecification\SpecificationInterface;
+// TODO: First update and republish dependencies
+use VolodymyrKlymniuk\DoctrineSpecification\SpecificationInterface;
 
 interface BaseSpecInterface extends SpecificationInterface
 {

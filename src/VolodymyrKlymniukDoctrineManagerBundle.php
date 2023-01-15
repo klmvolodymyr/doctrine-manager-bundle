@@ -3,7 +3,7 @@
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class DtDoctrineManagerBundle extends Bundle
+class VolodymyrKlymniukDoctrineManagerBundle extends Bundle
 {
     /**
      * @param ContainerBuilder $container

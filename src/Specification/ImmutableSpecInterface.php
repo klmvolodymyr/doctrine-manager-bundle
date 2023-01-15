@@ -1,8 +1,8 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\Specification;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\Specification;
 
-use Igdr\DoctrineSpecification\SpecificationInterface;
+use VolodymyrKlymniuk\DoctrineSpecification\SpecificationInterface;
 
 interface ImmutableSpecInterface extends SpecificationInterface
 {

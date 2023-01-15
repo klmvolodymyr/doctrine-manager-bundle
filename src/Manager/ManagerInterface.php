@@ -1,10 +1,10 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\Manager;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\Manager;
 
-use Igdr\DoctrineSpecification\LazySpecificationCollection;
-use Igdr\DoctrineSpecification\ResultTransformer\ResultTransformerInterface;
-use Igdr\DoctrineSpecification\SpecificationInterface;
+use VolodymyrKlymniuk\DoctrineSpecification\LazySpecificationCollection;
+use VolodymyrKlymniuk\DoctrineSpecification\ResultTransformer\ResultTransformerInterface;
+use VolodymyrKlymniuk\DoctrineSpecification\SpecificationInterface;
 
 interface ManagerInterface
 {

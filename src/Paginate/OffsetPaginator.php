@@ -1,8 +1,8 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\Paginate;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\Paginate;
 
-use Dt\DoctrineManagerBundle\Paginate\Adapter\AdapterInterface;
+use VolodymyrKlymniuk\DoctrineManagerBundle\Paginate\Adapter\AdapterInterface;
 use Doctrine\Common\Collections\AbstractLazyCollection;
 
 class OffsetPaginator implements PaginatorInterface

@@ -1,12 +1,12 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\Paginate\Adapter;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\Paginate\Adapter;
 
 use Doctrine\Common\Collections\AbstractLazyCollection;
 use Doctrine\ORM\Tools\Pagination\Paginator as DoctrinePaginator;
-use Igdr\DoctrineSpecification\LazySpecificationCollection;
-use Igdr\DoctrineSpecification\ResultTransformer\ResultTransformerCollection;
-use Igdr\DoctrineSpecification\ResultTransformer\Reverse;
+use VolodymyrKlymniuk\DoctrineSpecification\LazySpecificationCollection;
+use VolodymyrKlymniuk\DoctrineSpecification\ResultTransformer\ResultTransformerCollection;
+use VolodymyrKlymniuk\DoctrineSpecification\ResultTransformer\Reverse;
 
 class DoctrineTimeBasedAdapter implements TimeBasedAdapterInterface
 {

@@ -11,7 +11,7 @@ Register the bundle:
 
 return [
     ...
-     Dt\DoctrineManagerBundle\DtDoctrineManagerBundle::class => ['all' => true],
+     VolodymyrKlymniukDoctrineManagerBundle\DoctrineManagerBundle\DtDoctrineManagerBundle::class => ['all' => true],
 ];
 ```
 
@@ -33,9 +33,9 @@ parameters:
 
 namespace App\Specification;
 
-use Dt\DoctrineManagerBundle\Specification\BaseSpecInterface;
-use Dt\DoctrineManagerBundle\Utils\UuidHelper;
-use Igdr\DoctrineSpecification\Specification;
+use VolodymyrKlymniukDoctrineManagerBundle\DoctrineManagerBundle\Specification\BaseSpecInterface;
+use VolodymyrKlymniukDoctrineManagerBundle\DoctrineManagerBundle\Utils\UuidHelper;
+use VolodymyrKlymniukDoctrineManagerBundle\DoctrineSpecification\Specification;
 
 /**
  * Class GarbageCollectorSpecification

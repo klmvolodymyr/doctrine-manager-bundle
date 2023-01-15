@@ -1,10 +1,10 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\Paginate\Adapter;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\Paginate\Adapter;
 
 use Doctrine\Common\Collections\AbstractLazyCollection;
 use Doctrine\ORM\Tools\Pagination\Paginator as DoctrinePaginator;
-use Igdr\DoctrineSpecification\LazySpecificationCollection;
+use VolodymyrKlymniuk\DoctrineSpecification\LazySpecificationCollection;
 
 class DoctrineAdapter implements AdapterInterface
 {

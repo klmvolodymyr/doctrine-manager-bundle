@@ -1,6 +1,6 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\Specification;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\Specification;
 
 interface IdSpecificationInterface extends BaseSpecInterface
 {

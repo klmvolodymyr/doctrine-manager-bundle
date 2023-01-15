@@ -1,10 +1,10 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\Specification;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\Specification;
 
 use Doctrine\ORM\QueryBuilder;
-use Igdr\DoctrineSpecification\SpecificationApplier;
-use Igdr\DoctrineSpecification\SpecificationInterface;
+use VolodymyrKlymniuk\DoctrineSpecification\SpecificationApplier;
+use VolodymyrKlymniuk\DoctrineSpecification\SpecificationInterface;
 
 class ImmutableSpecApplier extends SpecificationApplier
 {

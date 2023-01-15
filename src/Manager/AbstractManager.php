@@ -2,13 +2,13 @@
 
 namespace Dt\DoctrineManagerBundle\Manager;
 
-use Dt\DoctrineManagerBundle\DependencyInjection\EntityManagerAwareTrait;
-use Dt\DoctrineManagerBundle\DependencyInjection\EventDispatcherAwareTrait;
+use VolodymyrKlymniuk\DoctrineManagerBundle\DependencyInjection\EntityManagerAwareTrait;
+use VolodymyrKlymniuk\DoctrineManagerBundle\DependencyInjection\EventDispatcherAwareTrait;
 
-use Igdr\DoctrineSpecification\EntitySpecificationRepository;
-use Igdr\DoctrineSpecification\LazySpecificationCollection;
-use Igdr\DoctrineSpecification\ResultTransformer\ResultTransformerInterface;
-use Igdr\DoctrineSpecification\SpecificationInterface;
+use VolodymyrKlymniuk\DoctrineSpecification\EntitySpecificationRepository;
+use VolodymyrKlymniuk\DoctrineSpecification\LazySpecificationCollection;
+use VolodymyrKlymniuk\DoctrineSpecification\ResultTransformer\ResultTransformerInterface;
+use VolodymyrKlymniuk\DoctrineSpecification\SpecificationInterface;
 use Doctrine\ORM\EntityManagerInterface;
 
 abstract class AbstractManager implements ManagerInterface

@@ -1,6 +1,6 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\Paginate\Adapter;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\Paginate\Adapter;
 
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerAwareTrait;

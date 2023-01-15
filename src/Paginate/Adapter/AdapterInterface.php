@@ -1,6 +1,6 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\Paginate\Adapter;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\Paginate\Adapter;
 
 use Doctrine\Common\Collections\AbstractLazyCollection;
 

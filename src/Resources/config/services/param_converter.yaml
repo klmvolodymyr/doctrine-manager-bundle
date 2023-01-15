@@ -1,12 +1,12 @@
 services:
   base.param_converter.specification:
-    class: Dt\DoctrineManagerBundle\ParamConverter\SpecParamConverter
+    class: VolodymyrKlymniuk\DoctrineManagerBundle\ParamConverter\SpecParamConverter
     arguments: ["@doctrine"]
     tags:
       - { name: request.param_converter, priority: 10 }
 
   base.param_converter.offset_paginator:
-    class: Dt\DoctrineManagerBundle\ParamConverter\OffsetPaginatorParamConverter
+    class: VolodymyrKlymniuk\DoctrineManagerBundle\ParamConverter\OffsetPaginatorParamConverter
     arguments: ["%api_pagination_limit%", "doctrine"]
     calls:
       - [setPagingAdapterFactory, ["@base.paginate.adapter_factory"]]
@@ -14,7 +14,7 @@ services:
       - { name: request.param_converter, priority: 10 }
 
   base.param_converter.paginator:
-    class: Dt\DoctrineManagerBundle\ParamConverter\PaginatorParamConverter
+    class: VolodymyrKlymniuk\DoctrineManagerBundle\ParamConverter\PaginatorParamConverter
     arguments: ["%api_pagination_limit%", "doctrine"]
     calls:
       - [setPagingAdapterFactory, ["@base.paginate.adapter_factory"]]
@@ -22,7 +22,7 @@ services:
       - { name: request.param_converter, priority: 10 }
 
   base.param_converter.timebased_paginator:
-    class: Dt\DoctrineManagerBundle\ParamConverter\TimeBasedPaginatorParamConverter
+    class: VolodymyrKlymniuk\DoctrineManagerBundle\ParamConverter\TimeBasedPaginatorParamConverter
     arguments: ["%api_pagination_limit%", "doctrine"]
     calls:
       - [setPagingAdapterFactory, ["@base.paginate.adapter_factory"]]

@@ -1,9 +1,9 @@
 <?php
 
-namespace Dt\DoctrineManagerBundle\ParamConverter;
+namespace VolodymyrKlymniuk\DoctrineManagerBundle\ParamConverter;
 
-use Dt\DoctrineManagerBundle\Paginate\Adapter\AdapterFactory;
-use Dt\DoctrineManagerBundle\Paginate\TimeBasedPaginator;
+use VolodymyrKlymniuk\DoctrineManagerBundle\Paginate\Adapter\AdapterFactory;
+use VolodymyrKlymniuk\DoctrineManagerBundle\Paginate\TimeBasedPaginator;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\ParamConverterInterface;
 use Symfony\Component\HttpFoundation\Request;
