@@ -2,7 +2,7 @@
     "name": "volodymyr-klymniuk/doctrine-manager-bundle",
     "description": "Doctrine entity management usage adapter",
     "type": "symfony-library",
-    "license": "RIP",
+    "license": "SPDX",
     "autoload": {
         "psr-4": {
             "VolodymyrKlymniuk\\DoctrineManagerBundle\\": "src/"
